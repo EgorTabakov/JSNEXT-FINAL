@@ -9,7 +9,6 @@ Vue.component('product-list', {
       <p>{{ product.productPrice }}</p>
       
       <button v-bind:id="product.productId" class="itemsCart">Add to Cart</button>
-
     </div></div>
     `,
   data() {

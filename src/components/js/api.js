@@ -1,7 +1,5 @@
 const API_BASE = '/catalogData';
 
-
-
 class ProductService {
   static getProducts() {
     return fetch(`${API_BASE}/catalog.json`).then(data => data.json());

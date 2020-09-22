@@ -1,7 +1,6 @@
 Vue.component('topbar', {
     template: /*html*/`
-        
-        <search-input @search="onSearchHandler"></search-input>
+      <search-input @search="onSearchHandler"></search-input>
         
     `,
     methods: {

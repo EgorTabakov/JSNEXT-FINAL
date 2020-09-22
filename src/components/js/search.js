@@ -17,5 +17,3 @@ Vue.component('search-input', {
       }
     }
   });
-
-
